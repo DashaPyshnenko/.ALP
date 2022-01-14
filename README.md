@@ -83,5 +83,5 @@ C помощью библиотеки NLTK выполняем токенизац
  N     V    V    N       P     N    
  |     |    |    |       |     |     
 дети будут пить чай      с  вареньем  <pre>
-![image](https://user-images.githubusercontent.com/71897811/149590238-aa2e46fc-d8c2-45f7-8f05-95730b90ce13.png)
+
 
