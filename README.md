@@ -32,15 +32,15 @@ C помощью библиотеки NLTK выполняем токенизац
  'варить': OpencorporaTag('INFN,impf,tran'), 'варенье': OpencorporaTag('NOUN,inan,neut sing,nomn,V-be'), 'дети': OpencorporaTag('NOUN,anim,masc plur,nomn'), 
 'будут': OpencorporaTag('VERB,impf,intr plur,3per,futr,indc'), 'пить': OpencorporaTag('INFN,impf,tran'), 'чай': OpencorporaTag('NOUN,inan,masc sing,nomn'),
  'с': OpencorporaTag('PREP'), 'вареньем': OpencorporaTag('NOUN,inan,neut sing,ablt,V-be')}
- <pre>     S      
+ <pre>         S      
      ______|___    
     VP         NP 
     |          |   
     V          N  
     |          |   
-наступило     лето <pre>
+наступило     лето 
 
-<pre>         S                   
+              S                   
           ____|______________      
          VP                  |    
       ___|__________         |     
@@ -48,7 +48,7 @@ C помощью библиотеки NLTK выполняем токенизац
   ___|___           |        |     
  P       N          V        N    
  |       |          |        |     
- в      саду     поспела смородина <pre>
+ в      саду     поспела смородина 
 
                   S                        
        ___________|______                   
@@ -82,4 +82,4 @@ C помощью библиотеки NLTK выполняем токенизац
  |     |    |     _______|_____      
  N     V    V    N       P     N    
  |     |    |    |       |     |     
-дети будут пить чай      с  вареньем
+дети будут пить чай      с  вареньем  <pre>
