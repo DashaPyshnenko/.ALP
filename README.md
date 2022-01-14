@@ -32,16 +32,14 @@ C помощью библиотеки NLTK выполняем токенизац
 'будут': OpencorporaTag('VERB,impf,intr plur,3per,futr,indc'), 'пить': OpencorporaTag('INFN,impf,tran'), 'чай': OpencorporaTag('NOUN,inan,masc sing,nomn'),
  'с': OpencorporaTag('PREP'), 'вареньем': OpencorporaTag('NOUN,inan,neut sing,ablt,V-be')}
  
-           S      
+#           S      
      ______|___    
     VP         NP 
     |          |   
     V          N  
     |          |   
 наступило     лето
-    
-
-
+   
               S                   
           ____|______________      
          VP                  |    
@@ -62,6 +60,7 @@ C помощью библиотеки NLTK выполняем токенизац
  N    P    N      V      N   P         N   
  |    |    |      |      |   |         |    
 даша  и  алиса собирают  ее  в      ведерко
+
             S                    
   __________|____                 
  |               VP              
@@ -73,6 +72,7 @@ C помощью библиотеки NLTK выполняем токенизац
  N     V         V           N   
  |     |         |           |    
 мама будет     варить     варенье
+
             S                       
   __________|____                    
  |               VP                 
