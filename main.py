@@ -16,22 +16,3 @@ for word in tokens:
     if word not in gramm:
         gramm[word] = p.tag
 print(gramm)
-
-grammar_all = nltk.CFG.fromstring("""
-   S -> NP VP | VP NP
-   VP -> V | V N | V N PP | V PP | V PP N | PP V | V V | V S
-   PP -> P N   
-   NP -> N | N P N
-   V -> "наступило" | "поспела" | "собирают" | "будет" | "варить" | "будут" | "пить"
-   N -> "лето" | "даша" | "смородина" | "алиса" | "ее" | "ведерко" | "мама" | "варенье" | "дети" | "чай" | "саду" | "вареньем" 
-   P -> "у" | "в" | "и" | "из" | "с" 
-   """)
-i = 0
-while i < len(sentences):
-    structure = nltk.word_tokenize(sentences[i], language='russian')
-    parser = nltk.RecursiveDescentParser(grammar_all)
-    parses = list(parser.parse(structure))
-    for tree in parser.parse(structure):
-        tree.pretty_print()
-        # print(tree, "\n")
-    i = i + 1
